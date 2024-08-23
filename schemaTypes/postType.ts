@@ -33,9 +33,9 @@ export const postType = defineType({
         options: {
             layout: 'radio',
             list: [
-                {title: 'Learning', value: 'learning'},
-                {title: 'Work', value: 'work'},
-                {title: 'Life', value: 'life'},
+                {title: 'Learning', value: 'Learning'},
+                {title: 'Work', value: 'Work'},
+                {title: 'Life', value: 'Life'},
             ]
         }
     }),
@@ -47,12 +47,18 @@ export const postType = defineType({
     defineField({
         name: 'date',
         type: 'date',
-        description: 'Date created.'
+        description: 'Date created.',
+        options: {
+            dateFormat: 'MMMM DD-YYYY'
+        }
     }),
     defineField({
         name: 'updated',
         type: 'date',
-        description: 'Last date updated.'
+        description: 'Last date updated.',
+        options: {
+            dateFormat: 'MMMM DD-YYYY'
+        }
     }),
     defineField({
         name: 'image',
