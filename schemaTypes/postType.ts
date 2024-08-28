@@ -24,7 +24,9 @@ export const postType = defineType({
     defineField({
         name: 'description',
         type: 'string',
-        description: 'Summary of the article that will show on the Home Page.'
+        description: 'Summary of the article that will show on the Home Page; please keep less than 75 characters.',
+        validation: rule => rule.required().max(75).warning('Please be descriptive, but concise.')
+            .error('Can not exceed 75 characters.')
     }),
     defineField({
         name: 'category',
@@ -33,9 +35,9 @@ export const postType = defineType({
         options: {
             layout: 'radio',
             list: [
-                {title: 'Learning', value: 'Learning'},
-                {title: 'Work', value: 'Work'},
-                {title: 'Life', value: 'Life'},
+                {title: 'Learning', value: 'LEARNING'},
+                {title: 'Work', value: 'WORK'},
+                {title: 'Life', value: 'LIFE'},
             ]
         }
     }),
