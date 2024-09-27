@@ -47,6 +47,7 @@ export const postType = defineType({
         options: {
             layout: 'radio',
             list: [
+              {title: 'None', value: undefined},
                 {title: 'Web Development', value: 'Web Development'},
                 {title: 'UI Design', value: 'UI Design'},
                 {title: 'UX', value: 'UX'},
@@ -67,6 +68,7 @@ export const postType = defineType({
       options: {
           layout: 'radio',
           list: [
+            {title: 'None', value: undefined},
             {title: 'Web Development', value: 'Web Development'},
             {title: 'UI Design', value: 'UI Design'},
             {title: 'UX', value: 'UX'},
@@ -87,6 +89,7 @@ export const postType = defineType({
     options: {
         layout: 'radio',
         list: [
+          {title: 'None', value: undefined},
           {title: 'Web Development', value: 'Web Development'},
           {title: 'UI Design', value: 'UI Design'},
           {title: 'UX', value: 'UX'},
@@ -150,305 +153,305 @@ export const postType = defineType({
       options: {
           hotspot: true,
       }
-}),
-defineField({
-  name: 'BodyImageCaption2',
-  type: 'string',
-}),
-defineField({
-  name: 'BodyText3',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-  name: 'BodyImage3',
-  type: 'image',
-  options: {
-      hotspot: true,
-  }
-}),
-defineField({
-name: 'BodyImageCaption3',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText4',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage4',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption4',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText5',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage5',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption5',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText6',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage6',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption6',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText7',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage7',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption7',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText8',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage8',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption8',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText9',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage9',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption9',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText10',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage10',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption10',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText11',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage11',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption11',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText12',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage12',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption12',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText13',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage13',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption13',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText14',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage14',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption14',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText15',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage15',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption15',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText16',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage16',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption16',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText17',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage17',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption17',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText18',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage18',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption18',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText19',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage19',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption19',
-type: 'string',
-}),
-defineField({
-  name: 'BodyText20',
-  type: 'array',
-  of: [{type: 'block'}],
-}),
-defineField({
-name: 'BodyImage20',
-type: 'image',
-options: {
-    hotspot: true,
-}
-}),
-defineField({
-name: 'BodyImageCaption20',
-type: 'string',
-}),
-  ],
-  preview: {
-    select: {
-        title: 'name',
-        subtitle: 'date',
-        media: 'MainVisual'
+    }),
+    defineField({
+      name: 'BodyImageCaption2',
+      type: 'string',
+    }),
+    defineField({
+      name: 'BodyText3',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+      name: 'BodyImage3',
+      type: 'image',
+      options: {
+          hotspot: true,
+      }
+    }),
+    defineField({
+    name: 'BodyImageCaption3',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText4',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage4',
+    type: 'image',
+    options: {
+        hotspot: true,
     }
-  }
-})
+    }),
+    defineField({
+    name: 'BodyImageCaption4',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText5',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage5',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption5',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText6',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage6',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption6',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText7',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage7',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption7',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText8',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage8',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption8',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText9',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage9',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption9',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText10',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage10',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption10',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText11',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage11',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption11',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText12',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage12',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption12',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText13',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage13',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption13',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText14',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage14',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption14',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText15',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage15',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption15',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText16',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage16',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption16',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText17',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage17',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption17',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText18',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage18',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption18',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText19',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage19',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption19',
+    type: 'string',
+    }),
+    defineField({
+      name: 'BodyText20',
+      type: 'array',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+    name: 'BodyImage20',
+    type: 'image',
+    options: {
+        hotspot: true,
+    }
+    }),
+    defineField({
+    name: 'BodyImageCaption20',
+    type: 'string',
+    }),
+      ],
+      preview: {
+        select: {
+            title: 'name',
+            subtitle: 'date',
+            media: 'MainVisual'
+        }
+      }
+    })

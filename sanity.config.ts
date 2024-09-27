@@ -5,7 +5,7 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'simpleUnilife',
+  title: 'Tsundoku-studio',
 
   projectId: 'f4z0lzmo',
   dataset: 'production',
