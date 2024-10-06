@@ -128,6 +128,11 @@ export const postType = defineType({
         options: { hotspot: true }
     }),
     defineField({
+      name: 'MainVisualAlt',
+      type: 'string',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.'
+    }),
+    defineField({
       name: 'IntroductionText',
       type: 'array',
       of: [{type: 'block'}],
@@ -172,14 +177,14 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage1Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
-      hidden: ({document}) => !document!.BodyImage1 || document!.BodyImage1 == null
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage1 || document!.BodyImage1 == null,
     }),
     defineField({
       name: 'InPageLinkToBodyText2',
       type: 'string',
       description: 'This is the text that will represent the in-page link to the respective BodyTextElement.',
-      hidden: ({document}) => !document!.BodyText2 || document!.BodyText2 == null
+      hidden: ({document}) => !document!.BodyText2 || document!.BodyText2 == null,
     }),
     defineField({
       name: 'BodyText2',
@@ -207,8 +212,8 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage2Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
-      hidden: ({document}) => !document!.BodyImage2 || document!.BodyImage2 == null
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage2 || document!.BodyImage2 == null,
     }),
     defineField({
       name: 'InPageLinkToBodyText3',
@@ -242,8 +247,8 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage3Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
-      hidden: ({document}) => !document!.BodyImage3 || document!.BodyImage3 == null
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage3 || document!.BodyImage3 == null,
     }),
     defineField({
       name: 'InPageLinkToBodyText4',
@@ -277,7 +282,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage4Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage4 || document!.BodyImage4 == null
     }),
     defineField({
@@ -312,7 +317,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage5Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage5 || document!.BodyImage5 == null
     }),
     defineField({
@@ -347,7 +352,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage6Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage6 || document!.BodyImage6 == null
     }),
     defineField({
@@ -382,7 +387,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage7Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage7 || document!.BodyImage7 == null
     }),
     defineField({
@@ -417,7 +422,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage8Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage8 || document!.BodyImage8 == null
     }),
     defineField({
@@ -452,7 +457,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage9Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage9 || document!.BodyImage9 == null
     }),
     defineField({
@@ -487,7 +492,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage10Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage10 || document!.BodyImage10 == null
     }),
     defineField({
@@ -522,7 +527,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage11Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage11 || document!.BodyImage11 == null
     }),
     defineField({
@@ -557,7 +562,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage12Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage12 || document!.BodyImage12 == null
     }),
     defineField({
@@ -592,7 +597,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage13Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage13 || document!.BodyImage13 == null
     }),
     defineField({
@@ -627,7 +632,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage14Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage14 || document!.BodyImage14 == null
     }),
     defineField({
@@ -662,7 +667,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage15Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage15 || document!.BodyImage15 == null
     }),
     defineField({
@@ -697,7 +702,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage16Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage16 || document!.BodyImage16 == null
     }),
     defineField({
@@ -732,7 +737,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage17Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage17 || document!.BodyImage17 == null
     }),
     defineField({
@@ -767,7 +772,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage18Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage18 || document!.BodyImage18 == null
     }),
     defineField({
@@ -802,7 +807,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage19Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage19 || document!.BodyImage19 == null
     }),
     defineField({
@@ -837,7 +842,7 @@ export const postType = defineType({
     defineField({
       name: 'BodyImage20Alt',
       type: 'string',
-      description: 'This field is what will be used for an alt tag; very important for accessibility.',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage20 || document!.BodyImage20 == null
     }),
       ],
