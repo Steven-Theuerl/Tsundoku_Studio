@@ -845,6 +845,181 @@ export const postType = defineType({
       description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
       hidden: ({document}) => !document!.BodyImage20 || document!.BodyImage20 == null
     }),
+    defineField({
+      name: 'InPageLinkToBodyText21',
+      type: 'string',
+      description: 'This is the text that will represent the in-page link to the respective BodyTextElement.',
+      hidden: ({document}) => !document!.BodyText21 || document!.BodyText21 == null
+    }),
+    defineField({
+      name: 'BodyText21',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => (document!.BodyText20 || document!.BodyImage20)  == null
+    }),
+    defineField({
+      name: 'BodyQuote21',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => !document!.BodyText21 || document!.BodyText21  == null
+    }),
+    defineField({
+    name: 'BodyImage21',
+    type: 'image',
+    options: { hotspot: true },
+    hidden: ({document}) => (document!.BodyText20 || document!.BodyImage20)  == null
+    }),
+    defineField({
+    name: 'BodyImageCaption21',
+    type: 'string',
+    hidden: ({document}) => !document!.BodyImage21 || document!.BodyImage21  == null
+    }),
+    defineField({
+      name: 'BodyImage21Alt',
+      type: 'string',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage21 || document!.BodyImage21 == null
+    }),
+    defineField({
+      name: 'InPageLinkToBodyText22',
+      type: 'string',
+      description: 'This is the text that will represent the in-page link to the respective BodyTextElement.',
+      hidden: ({document}) => !document!.BodyText22 || document!.BodyText22 == null
+    }),
+    defineField({
+      name: 'BodyText22',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => (document!.BodyText21 || document!.BodyImage21)  == null
+    }),
+    defineField({
+      name: 'BodyQuote22',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => !document!.BodyText22 || document!.BodyText22  == null
+    }),
+    defineField({
+    name: 'BodyImage22',
+    type: 'image',
+    options: { hotspot: true },
+    hidden: ({document}) => (document!.BodyText21 || document!.BodyImage21)  == null
+    }),
+    defineField({
+    name: 'BodyImageCaption22',
+    type: 'string',
+    hidden: ({document}) => !document!.BodyImage22 || document!.BodyImage22  == null
+    }),
+    defineField({
+      name: 'BodyImage22Alt',
+      type: 'string',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage22 || document!.BodyImage22 == null
+    }),
+    defineField({
+      name: 'InPageLinkToBodyText23',
+      type: 'string',
+      description: 'This is the text that will represent the in-page link to the respective BodyTextElement.',
+      hidden: ({document}) => !document!.BodyText23 || document!.BodyText23 == null
+    }),
+    defineField({
+      name: 'BodyText23',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => (document!.BodyText22 || document!.BodyImage22)  == null
+    }),
+    defineField({
+      name: 'BodyQuote23',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => !document!.BodyText23 || document!.BodyText23  == null
+    }),
+    defineField({
+    name: 'BodyImage23',
+    type: 'image',
+    options: { hotspot: true },
+    hidden: ({document}) => (document!.BodyText22 || document!.BodyImage22)  == null
+    }),
+    defineField({
+    name: 'BodyImageCaption23',
+    type: 'string',
+    hidden: ({document}) => !document!.BodyImage23 || document!.BodyImage23  == null
+    }),
+    defineField({
+      name: 'BodyImage23Alt',
+      type: 'string',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage23 || document!.BodyImage23 == null
+    }),
+    defineField({
+      name: 'InPageLinkToBodyText24',
+      type: 'string',
+      description: 'This is the text that will represent the in-page link to the respective BodyTextElement.',
+      hidden: ({document}) => !document!.BodyText24 || document!.BodyText24 == null
+    }),
+    defineField({
+      name: 'BodyText24',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => (document!.BodyText23 || document!.BodyImage23)  == null
+    }),
+    defineField({
+      name: 'BodyQuote24',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => !document!.BodyText24 || document!.BodyText24  == null
+    }),
+    defineField({
+    name: 'BodyImage24',
+    type: 'image',
+    options: { hotspot: true },
+    hidden: ({document}) => (document!.BodyText23 || document!.BodyImage23)  == null
+    }),
+    defineField({
+    name: 'BodyImageCaption24',
+    type: 'string',
+    hidden: ({document}) => !document!.BodyImage24 || document!.BodyImage24  == null
+    }),
+    defineField({
+      name: 'BodyImage24Alt',
+      type: 'string',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage24 || document!.BodyImage24 == null
+    }),
+    defineField({
+      name: 'InPageLinkToBodyText25',
+      type: 'string',
+      description: 'This is the text that will represent the in-page link to the respective BodyTextElement.',
+      hidden: ({document}) => !document!.BodyText25 || document!.BodyText25 == null
+    }),
+    defineField({
+      name: 'BodyText25',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => (document!.BodyText24 || document!.BodyImage24)  == null
+    }),
+    defineField({
+      name: 'BodyQuote25',
+      type: 'array',
+      of: [{type: 'block'}],
+      hidden: ({document}) => !document!.BodyText25 || document!.BodyText25  == null
+    }),
+    defineField({
+    name: 'BodyImage25',
+    type: 'image',
+    options: { hotspot: true },
+    hidden: ({document}) => (document!.BodyText24 || document!.BodyImage24)  == null
+    }),
+    defineField({
+    name: 'BodyImageCaption25',
+    type: 'string',
+    hidden: ({document}) => !document!.BodyImage25 || document!.BodyImage25  == null
+    }),
+    defineField({
+      name: 'BodyImage25Alt',
+      type: 'string',
+      description: 'This field is what will be used for an alt tag. Filling out this field accurately is very important for SEO and User Accessibility.',
+      hidden: ({document}) => !document!.BodyImage25 || document!.BodyImage25 == null
+    }),
       ],
       preview: {
         select: {
