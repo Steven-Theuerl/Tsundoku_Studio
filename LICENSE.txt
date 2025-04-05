@@ -1,0 +1,17 @@
+Copyright © 2025 Steven Theuerl. All rights reserved.
+
+This project, including but not limited to all code, custom schema definitions, GROQ queries, studio structure logic, and user interface configurations, is the original work of Steven Theuerl and is protected by copyright and intellectual property law.
+
+This repository is provided solely for portfolio and informational purposes.
+
+You are NOT permitted to:
+- Copy, clone, modify, or redistribute any part of this project.
+- Reuse the schema structure, GROQ queries, or studio configuration in your own CMS.
+- Use this work as the foundation for any personal, educational, or commercial product.
+- Claim ownership or authorship of any part of this project.
+
+Unauthorized use or adaptation of this project, in whole or in part, will be considered intellectual property infringement and may result in legal action.
+
+If you are interested in collaboration or licensing, please contact Steven Theuerl directly.
+
+No rights of reuse or redistribution are granted without explicit written permission.
