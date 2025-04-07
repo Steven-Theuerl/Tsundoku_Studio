@@ -2,8 +2,6 @@
 
 Tsundoku Studio is a custom-built headless CMS created with Sanity.io. It allows me (or any collaborator) to create structured content—such as blog articles, videos, or events—and deliver that content to my frontend website, Tsundoku Blog, via API.
 
-![Screenshot 2025-02-23 at 17-14-59 We Just Released Tsundoku ! Tsundoku-studio](https://github.com/user-attachments/assets/2faf82d5-d562-4e31-920e-e99292d0e192)
-
 ---
 
 ## 🖠 Tech Stack
