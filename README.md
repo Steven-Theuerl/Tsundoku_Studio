@@ -6,7 +6,7 @@ Tsundoku Studio is a custom-built headless CMS created with Sanity.io. It allows
 
 ---
 
-## 🛠 Tech Stack
+## 🖠 Tech Stack
 
 - **CMS:** Sanity.io  
 - **Language:** TypeScript  
@@ -59,6 +59,9 @@ Tsundoku Studio is a custom-built headless CMS created with Sanity.io. It allows
 - Querying nested block content with GROQ to allow for article body search indexing  
 - Creating dynamic filters using GROQ projections, joins, and relational mapping  
 - Optimizing studio UX for content creators (grouping, validation, live previews)  
+- Fixing **preview content leaking into production**: Initially struggled with Sanity’s preview mode bleeding into non-preview routes. Solved by restructuring the logic to only enable draft mode for `/api/preview` routes and adding a cookie-based system to persist preview state safely. This prevented accidental draft data exposure and now guarantees that only `/api/preview` routes or explicit `?preview=true` query params can enable draft content.
+- Rewrote Sanity preview flow and routing logic to ensure that both localhost and production (tsundoku.blog) enforce this behavior consistently.
+- **Studio Preview Enhancement:** I added a preview window directly into the Sanity Studio UI for contributors. While I'm comfortable juggling multiple windows across three screens, I knew that might not be the case for everyone I invited to create content. This studio-side preview made it easier for less technical users to see their updates reflected in real-time—without needing to switch tabs or deploy anything. It helped reduce confusion, improved workflow speed, and made Tsundoku more usable for creative collaborators.
 
 ---
 
