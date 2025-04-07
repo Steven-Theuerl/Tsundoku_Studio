@@ -28,6 +28,7 @@ const deskStructure: StructureResolver = (S) =>
                         `${PREVIEW_URL}/api/preview?redirect=/posts/${doc?.slug?.current || ''}`,
                       defaultSize: 'desktop',
                       reload: {button: true},
+                      credentials: 'include',
                     })
                     .title('Preview'),
                 ]),
