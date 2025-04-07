@@ -2,7 +2,7 @@ import {StructureResolver} from 'sanity/structure'
 import LivePreviewIframe from './components/LivePreviewIframe'
 import {Iframe} from 'sanity-plugin-iframe-pane'
 
-const PREVIEW_URL = 'http://localhost:3000'
+const PREVIEW_URL = 'https://www.tsundoku.blog'
 
 const deskStructure: StructureResolver = (S) =>
   S.list()
