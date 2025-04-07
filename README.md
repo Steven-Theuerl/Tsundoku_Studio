@@ -49,7 +49,7 @@ Tsundoku Studio is a custom-built headless CMS created with Sanity.io. It allows
 
 ## 📸 Screenshots & GIFs
 
-<img width="1050" alt="image" src="https://github.com/user-attachments/assets/20de25f0-0697-4e8c-86b7-52b6a9b08210" />
+<img width="1694" alt="CMS hero " src="https://github.com/user-attachments/assets/f49ebf68-a1b9-4bd1-b5e4-b6abc32a4596" />
 
 ---
 
